@@ -1,0 +1,72 @@
+
+''' Задача 12
+a=20
+
+for a in range(1,20):
+    if a%2==0:
+        print(a)
+'''
+
+''' Задача 11
+import math
+a=int(input("vvedite chisla"))
+b=int(input())
+
+print((a*b)//math.gcd(a,b))
+'''
+ 10ая задачу делал, там намудрил с ctrl+z и он забыл пол задачи, вы сказали можно не переписывать заново)
+''' Задача 9
+a=20
+i=0
+while i != a:
+    if a%2==0:
+        print (a)
+    a-=1
+'''
+
+'''Задача 8
+
+a=int(input("vvedite god"))
+
+if a%4 == 0 and (a%100!=0 or a%400==0):
+    print("s dr")
+elif a<1900 or a>3000:
+    print("mimo")
+else:
+    print("obich god")
+'''
+
+'''Задача 7
+a=False
+b=True
+c=False
+print((not a or b) and c)
+'''
+
+''' Задача6
+hour = int(input("Введите кол часов"))
+a = int(input("Введите кол минут"))
+res = (hour*60)+a
+print("Иванов потратил на дорогу ",res," Минут")
+
+print (int(input("chasi"))*60+int(input("minuti")))
+
+'''
+
+'''Задача 5
+a=input("имя")
+print ("Здарова ",a)
+
+'''
+
+''' Задача 4
+
+a=5.7
+print (int(a))
+a=-5.7
+print (int(a))
+print(3**39-int(float(3**39)))
+
+'''
+
+1 2 и 3 не остались
